@@ -2,14 +2,12 @@
 Aplicación Web con Node.js y MongoDB, acceso autenticado con facebook, twitter, google y localmente
 
 ## Objetivos
-Con este trabajo pretendo conseguir dos objetivos, primero aprender a crear aplicaciones web que utilicen Node.js en la parte servidora y MongoDB como base de datos, el sgundo objetivo es utilizar las API de las grandes redes sociales para autenticar el acceso a la aplicación.
+Con este trabajo pretendo conseguir dos objetivos, el primero es aprender a crear aplicaciones web que utilicen Node.js en la parte servidora y MongoDB como base de datos, el sgundo objetivo es utilizar las API de las grandes redes sociales para autenticar el acceso a la aplicación.
 
 ## Tecnología empleada
 De manera lógica, podemos dividir la aplicación en dos partes, Frontend y Backend:
-En el Frontend he utlizado:
-* HTML, EJS, CSS y Bootstrap
-En el Backend he utilizado:
-* Node.js, Express.js y MongoDB
+* Frontend: HTML, EJS, CSS y Bootstrap.
+* Backend: Node.js, Express.js y MongoDB.
 Node.js soporta muchos módulos que implementan funcionalidades de un manera mas cómoda, uno de los módulos mas destacados es Passport.js que nos ayuda a implementar la autenticación tanto local como por redes sociales. a continuación está la lista completa:
       * express
       * ejs
@@ -27,9 +25,19 @@ Node.js soporta muchos módulos que implementan funcionalidades de un manera mas
       * method-override
       * express-session
 
-
 ## Uso del software desarrollado
-
+Para poder utilizar la aplicacion (en windows) tenemos que realizar los siguientes pasos:
+1. instalar Node.js
+2. instalar MongoDB
+4. instalar Git Bash
+5. iniciar MongoDB:
+    * ir a C:\Program Files\MongoDB\Server\3.2\bin
+    * ejecutar en Git Bash $ ./mongod
+6. Descargar u clonar la aplicacion en un directorio
+7. Dentro del directorio y utlizando Git Bash:
+    * Para instalar los módulos de **package.json** ejecutamos: $ npm install
+    * Para lanzar la aplicacion en el servidor ejecutamos: $ npm start
+6. Abrimos en un navegador la dirección: http://localhost:8080/
 ## Resultados
 
 ## Conclusiones
