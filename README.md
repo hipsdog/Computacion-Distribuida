@@ -27,17 +27,17 @@ Node.js soporta muchos módulos que implementan funcionalidades de un manera mas
 
 ## Uso del software desarrollado
 Para poder utilizar la aplicacion (en windows) tenemos que realizar los siguientes pasos:
-1. instalar Node.js
-2. instalar MongoDB
-4. instalar Git Bash
-5. iniciar MongoDB:
+  1. instalar Node.js
+  2. instalar MongoDB
+  4. instalar Git Bash
+  5. iniciar MongoDB:
     * ir a C:\Program Files\MongoDB\Server\3.2\bin
     * ejecutar en Git Bash $ ./mongod
-6. Descargar u clonar la aplicacion en un directorio
-7. Dentro del directorio y utlizando Git Bash:
+  6. Descargar u clonar la aplicacion en un directorio
+  7. Dentro del directorio y utlizando Git Bash:
     * Para instalar los módulos de **package.json** ejecutamos: $ npm install
     * Para lanzar la aplicacion en el servidor ejecutamos: $ npm start
-6. Abrimos en un navegador la dirección: http://localhost:8080/
+  8. Abrimos en un navegador la dirección: http://localhost:8080/
 ## Resultados
 
 ## Conclusiones
