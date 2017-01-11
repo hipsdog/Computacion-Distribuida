@@ -38,7 +38,9 @@ Para poder utilizar la aplicacion (en windows) tenemos que realizar los siguient
     * Para instalar los módulos de **package.json** ejecutamos: **$ npm install**
     * Para lanzar la aplicacion en el servidor ejecutamos: **$ npm start**
   8. Abrimos en un navegador la dirección: **http://localhost:8080/**
+
 ## Resultados
 El resultado de este trabajo es una aplicacion web sencilla en la que me he centrado en la parte de autenticación, el usuario puede acceder registrandose localmente, u utilizando una de las redes sociales. Más tarde, pude vincular los distintos métodos de autenticacion entre sí, así, en el futuro, sea cual sea su método de autenticación, toda su información será unificada bajo el mismo perfil.
+
 ## Conclusiones
 Ha sido un trabajo gratificante en el que he aprendido muchas cosas, y he podido alcanzar un buen punto de partida para crear aplicaciones más complejas.
