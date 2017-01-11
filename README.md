@@ -41,4 +41,4 @@ Para poder utilizar la aplicacion (en windows) tenemos que realizar los siguient
 ## Resultados
 El resultado de este trabajo es una aplicacion web sencilla en la que me he centrado en la parte de autenticación, el usuario puede acceder registrandose localmente, u utilizando una de las redes sociales. Más tarde, pude vincular los distintos métodos de autenticacion entre sí, así, en el futuro, sea cual sea su método de autenticación, toda su información será unificada bajo el mismo perfil.
 ## Conclusiones
-Ha sido un trabajo gratificante en el que he aprendido muchas cosas, y un buen punto de partida para crear aplicaciones más complejas.
+Ha sido un trabajo gratificante en el que he aprendido muchas cosas, y he podido alcanzar un buen punto de partida para crear aplicaciones más complejas.
