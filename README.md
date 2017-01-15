@@ -5,8 +5,8 @@ Aplicación Web con Node.js y MongoDB, y acceso autenticado con facebook, twitte
 Con este trabajo pretendo conseguir varios objetivos:
   1. Crear una aplicacion web utilizando Node.js en la parte servidora y MongoDB como base de datos
   2. Utilizar EJS para procesar las páginas HTML antes de enviarlas al cliente
-  3. Utilizar passport.js para autenticar el acceso co las API de las grandes redes sociales
-  4. Vincular la cuentas en una única cuenta para tenenr un perfil completo y único sea cual sea la red utilizada
+  3. Utilizar passport.js para autenticar el acceso con las APIs de las grandes redes sociales
+  4. Vincular las cuentas en una única cuenta para tenenr un perfil completo y único sea cual sea la red utilizada
 
 ## Tecnología empleada
 De manera lógica, podemos dividir la aplicación en dos partes, Frontend y Backend:
