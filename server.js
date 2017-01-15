@@ -15,6 +15,7 @@ var session      = require('express-session');
 var configDB = require('./config/database.js');
 
 // configuration ===============================================================
+mongoose.Promise = global.Promise;
 mongoose.connect(configDB.url); // connect to our database
 
 require('./config/passport')(passport); // pass passport for configuration
@@ -40,6 +41,8 @@ app.use(flash()); // use connect-flash for flash messages stored in session
 // routes ======================================================================
 require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
 app.use("/public", express.static(__dirname + '/public')); // include static files from /public
+
+
 
 // for openshift
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080

@@ -49,10 +49,12 @@
                         <p>
                             <strong>id</strong>:
                             <%= user._id %><br>
-                                <strong>email</strong>:
-                                <%= user.local.email %><br>
-                                    <strong>password (encriptado)</strong>:
-                                    <%= user.local.password %>
+                                <strong>Nombre</strong>:
+                                <%= user.local.name %><br>
+                                    <strong>email</strong>:
+                                    <%= user.local.email %><br>
+                                        <strong>password (encriptado)</strong>:
+                                        <%= user.local.password %>
                         </p>
 
                         <a href="/unlink/local" class="btn btn-default">Unlink</a>
@@ -65,7 +67,7 @@
 
             <!-- FACEBOOK INFORMATION -->
             <div class="col-sm-12">
-                <div class="well">
+                <div class="well" style="overflow:hidden;">
                     <h3 class="text-primary"><span class="fa fa-facebook"></span> Facebook</h3>
 
                     <!-- check if the user has this token (is the user authenticated with this social account) -->

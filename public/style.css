@@ -37,3 +37,11 @@
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #17263d;
 }
+.jumbotron {
+    background-color:#495b77;
+}
+ul li {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}

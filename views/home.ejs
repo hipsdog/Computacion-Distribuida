@@ -38,9 +38,32 @@
     </nav>
 
     <div class="container">
-      <div class="row">
-        <h1 style="color:#000;text-align:center"><span class="fa fa-anchor" ></span> Página principal</h1>
-      </div>
+        <div class="row">
+            <h1 style="color:#000;text-align:center"><span class="fa fa-anchor" ></span> Página principal</h1>
+            <div class="container">
+                <div class="jumbotron" style="text-align:center;">
+                    <h2>Añadir tarea</h2>
+                    <br>
+                    <form action="/ideas" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="idea" required="required">
+                        </div>
+                        <button type="submit" class="btn btn-info" style="width:100%">añadir</button>
+                    </form>
+                    <form action="/deleteideas" method="get">
+                        <button type="submit" class="btn btn-danger" style="width:100%">eliminar todo</button>
+                    </form>
+                    <br>
+                    <ul>
+                        <% ideas.forEach(function(idea) { %>
+                            <li>
+                                <%= idea.text %>
+                            </li>
+                            <% }); %>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
