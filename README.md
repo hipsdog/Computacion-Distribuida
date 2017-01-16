@@ -38,10 +38,12 @@ Para poder utilizar la aplicacion (en windows) tenemos que realizar los siguient
     * ir a **C:\Program Files\MongoDB\Server\3.2\bin**
     * ejecutar en Git Bash: **$ ./mongod**
   6. Descargar u clonar la aplicacion en un directorio
-  7. Dentro del directorio y utlizando Git Bash:
+  7. Crear la aplicacion en facebook developer, twitter y gmail
+  8. EN config/auth.js poner el **client secret** de las aplicaciones creadas
+  9. Dentro del directorio de la aplicación y utlizando Git Bash:
     * Para instalar los módulos de **package.json** ejecutamos: **$ npm install**
     * Para lanzar la aplicacion en el servidor ejecutamos: **$ npm start**
-  8. Abrimos en un navegador la dirección: **http://localhost:8080/**
+  10. Abrimos en un navegador la dirección: **http://localhost:8080/**
 
 ## Resultados
 El resultado de este trabajo es una aplicacion web sencilla en la que me he centrado en la parte de autenticación, el usuario puede acceder registrandose localmente, u utilizando una de las redes sociales. Más tarde, pude vincular los distintos métodos de autenticacion entre sí, así, en el futuro, sea cual sea su método de autenticación, toda su información será unificada bajo el mismo perfil.
